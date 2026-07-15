@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect("school.db")
+connection = sqlite3.connect("day8/school.db")
 cursor = connection.cursor()
 
 create_table_query = """
