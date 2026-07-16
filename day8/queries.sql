@@ -56,3 +56,19 @@ SELECT avg(cgpa)  from students ;
 SELECT MAX(cgpa), MIN(cgpa) from students ;
 
 SELECT count(*) as total_students ,AVG(cgpa) AS average_cgpa , MAX(cgpa) AS highest_cgpa , MIN(cgpa) AS lowest_cgpa from students;
+
+-- Session 3 - Group By
+
+select (branch),count(branch)  as student_count from students GROUP by branch;
+
+select branch, AVG(cgpa)  as average_cgpa from students GROUP by branch;
+
+select branch , avg(cgpa) as average from students GROUP by branch having avg(cgpa) >= 8.0;
+
+SELECT branch,
+       COUNT(name) AS student_count,
+       AVG(cgpa) AS average_cgpa
+FROM students
+GROUP BY branch
+HAVING COUNT(name) >= 2
+   AND AVG(cgpa) >= 8.0;
