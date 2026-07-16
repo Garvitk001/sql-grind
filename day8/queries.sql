@@ -40,3 +40,19 @@ FROM students
 WHERE cgpa BETWEEN 7.0 AND 8.5;
 
 SELECT * FROM students WHERE BRANCH = 'AI&DS' ORDER BY cgpa desc limit 3;
+
+
+
+
+-- Session 2: Aggregate Functions
+select count(name) from students;
+
+select count(*) from students where branch = 'AI&DS';
+
+SELECT sum(cgpa) from students ;
+
+SELECT avg(cgpa)  from students ;
+
+SELECT MAX(cgpa), MIN(cgpa) from students ;
+
+SELECT count(*) as total_students ,AVG(cgpa) AS average_cgpa , MAX(cgpa) AS highest_cgpa , MIN(cgpa) AS lowest_cgpa from students;
