@@ -15,25 +15,16 @@
 ## 📅 Progress
 
 | Day | Topics | Project | Status |
-|---|---|---|---|
-| Day 8 | SELECT, INSERT, WHERE, AND, OR, ORDER BY, LIMIT, DISTINCT, LIKE, IN, BETWEEN, Aggregates, GROUP BY, HAVING, Python + SQLite | Student Database + Python SQL Report | ✅ Complete |
-| Day 9 | SQL JOINs and multi-table analysis | Sales Analysis | ⏳ Upcoming |
-| Day 10 | INNER JOIN, LEFT JOIN, multi-table queries | E-commerce Database | ⏳ Upcoming |
-| Day 11 | Subqueries, CASE WHEN | HR Database | ⏳ Upcoming |
-| Day 12 | Window Functions | IPL Database | ⏳ Upcoming |
-| Day 13 | Python + SQL project | Titanic SQL Analysis | ⏳ Upcoming |
+|-----|--------|---------|--------|
+| Day 8 | SELECT, WHERE, Aggregates, GROUP BY, HAVING, Python + SQL | Student Database | ✅ Complete |
+| Day 9 | INNER JOIN, LEFT JOIN, Foreign Keys | Student Contacts Analysis | ✅ Complete |
+| Day 10 | Multi-table JOINs, Revenue Analysis | E-commerce Database | ✅ Complete |
+| Day 11 | Subqueries, Correlated Subqueries, CASE WHEN | HR Analytics Database | ✅ Complete |
+| Day 12 | ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD, CTEs | IPL Window Functions | ✅ Complete |
+| Day 13 | Python + SQL Integration | Titanic SQL Analysis | ⏳ Upcoming |
 | Day 14 | Mock Test + Final Project | Zomato SQL Analysis | ⏳ Upcoming |
 
-## ✅ Day 8 Completed Work
 
-- Created SQLite database and `students` table
-- Inserted and retrieved student records
-- Used filtering, sorting, and limiting
-- Used `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX`
-- Used `GROUP BY` and `HAVING`
-- Connected Python with SQLite
-- Used `fetchone()` and `fetchall()`
-- Generated a Top 3 CGPA student report using Python
 
 ## 🛠️ Skills
 
@@ -41,7 +32,7 @@
 ![Python](https://img.shields.io/badge/Python-SQLite%20Integration-green)
 ![Git](https://img.shields.io/badge/Git-GitHub-black)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Days](https://img.shields.io/badge/Days%20Completed-1%2F7-orange)
+![Days](https://img.shields.io/badge/Days%20Completed-5%2F7-brightgreen)
 
 ## 📁 Project Structure
 
